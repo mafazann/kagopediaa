@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: rgb(0, 68, 68);
+    color: white;
+}
+
+header {
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 15pt;
+    justify-content: center;
+    text-align: center;
+    z-index: 999;
+    background-color: teal;
+}
+
+.title {
+    color: white;
+    font-size: 15pt;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+nav ul li a {
+    color: white;
+    font-size: 12pt;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 68, 68);
+}
+
+.ads {
+  display: grid;
+}
+.produk{
+  padding-top: 140px;
+}
+
+.produk h3 {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.isiproduk {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  text-transform: none;
+}
+
+.isiproduk h6 {
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.tentang {
+  display: grid;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 15pt;
+}
+
+.card {
+  background-color: grey;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 20px 20px black;
+}
+.card h1 { 
+  text-align: center; 
+}
+
+html { 
+  scroll-behavior: smooth; 
+}
+footer {
+  display: grid;
+  justify-content: center;
+  background-color: teal;
+  margin-top: 10%;
+  padding: 2%;
+}
+.sosmed {
+text-align: center;
+}
+
+.sosmed img  { 
+  width: 50px; 
+}
+
+.sosmed2 img  { 
+  width: 500px; 
+}
+
+.sosmed2 img:hover  { 
+  transition: .2s ;
+  transform: scale(1.1);
+}
+
+aside {
+  display: grid;
+  justify-content: center;
+  margin-top: 10%;
+  padding: 2%;
+  text-align: center;
+}

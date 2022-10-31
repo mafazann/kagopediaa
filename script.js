@@ -1,0 +1,1 @@
+alert('Hai Selamat datang di KAGOPEDIA, Selamat berbelanja!')
